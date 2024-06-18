@@ -1,3 +1,7 @@
+html {
+    background-color: #1F2937;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', Verdana, Arial, sans-serif;
@@ -5,7 +9,6 @@ body {
 
 /* Combine header and footer plus where there is style overlap */
 .header {
-    background-color: #1F2937;
     color: #F9FAF8;
 
     display: flex;
@@ -46,6 +49,13 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+}
+
+.hero-left button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 7.5%;
 }
 
 .social-proof {
