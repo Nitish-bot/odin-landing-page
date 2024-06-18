@@ -3,10 +3,14 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
+    
     display: flex;
 }
 
 .hero {
+    background-color: #1F2937;
+
     display: flex;
 }
 
@@ -30,6 +34,8 @@ body {
 }
 
 .quote {
+    background-color: #E5E7EB;
+
     display: flex;
     flex-direction: column;
 }
@@ -48,5 +54,6 @@ body {
 }
 
 .footer {
+    background-color: #1F2937;
     display: flex;
 }
