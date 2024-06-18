@@ -1,3 +1,52 @@
 body {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
+
+.header {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-proof {
+    display: flex
+    flex-direction: column;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-sec {
+    display: flex;
+}
+
+.cta {
+    display: flex;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+}
