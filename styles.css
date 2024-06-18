@@ -27,6 +27,7 @@ ul {
 
 .hero {
     background-color: #1F2937;
+    color: #F9FAF8;
 
     display: flex;
 }
@@ -34,6 +35,17 @@ ul {
 .hero-left {
     display: flex;
     flex-direction: column;
+}
+
+.hero-left .text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .social-proof {
