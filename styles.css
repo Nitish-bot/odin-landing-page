@@ -10,8 +10,10 @@ body {
 /* Combine header and footer plus where there is style overlap */
 .header {
     color: #F9FAF8;
+    padding: 0px 15vw;
 
     display: flex;
+    align-items: center;
 }
 
 .logo {
