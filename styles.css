@@ -16,6 +16,15 @@ button {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+
+    display: flex;
+    gap: 16px;
+}
+
 /* Combine header and footer plus where there is style overlap */
 .header {
     color: #F9FAF8;
@@ -30,19 +39,10 @@ button {
     font-weight: 700;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-left: auto;
-
-    display: flex;
-    gap: 16px;
-}
-
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 6vh 15vw;
+    padding: 9vh 15vw;
 
     display: flex;
     align-items: center;
@@ -57,6 +57,7 @@ ul {
 .hero-left {
     display: flex;
     flex-direction: column;
+    gap: 9px;
 }
 
 .hero-left .text {
