@@ -76,10 +76,14 @@ ul {
 }
 
 .social-proof {
+    padding: 6vh 15vw;
     background-color: #F9FAF8;
 
-    display: flex
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
 }
 
 .social-proof .text {
@@ -91,11 +95,15 @@ ul {
 
 .testimonials {
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .client {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .clientImg {
