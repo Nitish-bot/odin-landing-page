@@ -40,6 +40,11 @@ ul {
     gap: 5vw;
 }
 
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
 .hero-left {
     display: flex;
     flex-direction: column;
