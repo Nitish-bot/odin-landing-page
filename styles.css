@@ -59,7 +59,7 @@ ul {
 }
 
 .social-proof {
-    background-color: #FFFFFF;
+    background-color: #F9FAF8;
 
     display: flex
     flex-direction: column;
@@ -111,7 +111,7 @@ ul {
 }
 
 .cta-sec {
-    background-color: #FFFFFF;
+    background-color: #F9FAF8;
     height: 240px;
 
     display: flex;
@@ -145,7 +145,7 @@ ul {
 
 .cta button {
     background-color: #3882F6;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #F9FAF8;
     border-radius: 8px;
 }
 
