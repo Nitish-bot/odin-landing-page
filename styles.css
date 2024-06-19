@@ -96,7 +96,7 @@ ul {
 .testimonials {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 30px;
 }
 
 .client {
@@ -117,6 +117,7 @@ ul {
 }
 
 .quote {
+    padding: 9vh 15vw;
     background-color: #E5E7EB;
 
     display: flex;
@@ -133,6 +134,7 @@ ul {
 .quote .subtext {
     font-size: 18px;
     font-weight: 700;
+    align-self: flex-end;
 }
 
 .cta-sec {
