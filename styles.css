@@ -33,8 +33,11 @@ ul {
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0px 15vw;
 
     display: flex;
+    align-items: center;
+    gap: 5vw;
 }
 
 .hero-left {
