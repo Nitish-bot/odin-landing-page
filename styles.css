@@ -7,6 +7,15 @@ body {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
+button {
+    width: 90px;
+    height: 24px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 6px;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+}
+
 /* Combine header and footer plus where there is style overlap */
 .header {
     color: #F9FAF8;
@@ -33,7 +42,7 @@ ul {
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0px 15vw;
+    padding: 6vh 15vw;
 
     display: flex;
     align-items: center;
@@ -62,10 +71,7 @@ ul {
 }
 
 .hero-left button {
-    color: #F9FAF8;
-    background-color: #3882F6;
-    border: 0px;
-    border-radius: 7.5%;
+    border: 0;
 }
 
 .social-proof {
@@ -140,10 +146,8 @@ ul {
 }
 
 .cta button {
-    color: #F9FAF8;
-    background-color: #3882F6;
+    height: 28px;
     border: 2px solid #F9FAF8;
-    border-radius: 8px;
 }
 
 .instructions {
