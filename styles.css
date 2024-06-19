@@ -92,6 +92,17 @@ ul {
     flex-direction: column;
 }
 
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .subtext {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .cta-sec {
     display: flex;
 }
